@@ -2,6 +2,7 @@ package com.genderapi
 
 import android.app.GrammaticalInflectionManager
 import android.content.res.Configuration
+import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -37,7 +38,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.genderapi.ui.theme.GenderAPITheme
 
-@RequiresApi(34)
+@RequiresApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
